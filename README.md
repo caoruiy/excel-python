@@ -8,6 +8,7 @@ You can use this package to read and write Excel file like this:
 First of all, you should instantiate the Excel object
 you can do like this:
 ```
+from expy.excel import Excel
 excel = Excel()
 
 excel = Excel( file="../../excel/data.xlsx", sheet="sheet1", rebuild=True)
@@ -119,6 +120,7 @@ excel.msg
 
 首先你需要实例化 **Excel** 对象，你可以这样做：
 ```
+from expy.excel import Excel
 excel = Excel()
 
 excel = Excel( file="../../excel/data.xlsx", sheet="sheet1", rebuild=True)
