@@ -1,6 +1,6 @@
 # -*- coding=utf-8 -*-
 
-from excel.excel import Excel
+from expy.excel import Excel
 
 # 读写Excel示例
 
