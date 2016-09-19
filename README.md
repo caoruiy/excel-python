@@ -1,6 +1,7 @@
 # excel-python
 A simple API of read and write excel  file based on xlrd, xlwt and xlutils
 > 该模块封装了xlrd，xlwt，xlutils的操作，提供了更加简洁的API来读写Excel文件（中文说明在本文最后，[点此跳转][china]）
+
 You can use this package to read and write Excel file like this:
 
 ## APIs
@@ -176,9 +177,9 @@ sheet(1,0)
 excel.write(row=1, col=0, content='ben', sheet='sheet1')
 ```
 参数:
-_row_, _col_ : 写入的行号，列号
-_content_ : 写入的内容
-_sheet_ : 写入的sheet名称
+* _row_, _col_ : 写入的行号，列号
+* _content_ : 写入的内容
+* _sheet_ : 写入的sheet名称
 
 简写:
 ```
