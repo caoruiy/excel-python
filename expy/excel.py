@@ -71,6 +71,9 @@ class Excel(object):
         else:
             self._file_exist = False
 
+    def file_exist(self):
+        return self._file_exist
+            
     def _get_read_workbook(self):
         """
             单例模式获取读取的excel workbook对象
